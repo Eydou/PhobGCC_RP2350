@@ -1,0 +1,9 @@
+/Users/edouardtouch/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/edouardtouch/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -DPICO_BOARD=pico2 -G Ninja -S /Users/edouardtouch/Phob/PhobGCC-SW/PhobGCC/rp2040 -B /Users/edouardtouch/Phob/PhobGCC-SW/PhobGCC/rp2040/cmake-build-debug
+CMake Error at CMakeLists.txt:18 (message):
+  Could not find the Raspberry Pi Pico SDK.
+
+  Set PICO_SDK_PATH in the environment or pass
+  -DPICO_SDK_PATH=/absolute/path/to/pico-sdk when running CMake.
+
+
+-- Configuring incomplete, errors occurred!
