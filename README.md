@@ -1,19 +1,10 @@
 # PhobGCC
 
-PhobGCC is an open-source Gamecube controller motherboard aiming to make an accessible and consistent controller. The key feature is the use of hall effect sensors instead of potentiometers, which eliminates a wear item. Additonally, it features notch calibration, digital snapback filtering, button remapping, and various trigger configurations.
+PhobGCC RP2350 is an open-source GameCube controller motherboard firmware project built for the RP2350 platform, aiming to make an accessible, consistent, and durable controller. Its key feature is support for Hall effect sensors instead of potentiometers, removing a major wear point. It also includes notch calibration, digital snapback filtering, button remapping, and configurable trigger behavior.
 
-If you are interested in making one, join the project Discord to ask questions and get the most up to date information: https://discord.gg/eNJ7xWMvxf
+Thanks to the move to RP2350, this version benefits from a faster and more capable microcontroller platform than RP2040, with higher clock speeds, more SRAM, stronger Cortex-M33 cores, expanded PIO and interfacing capabilities, and improved security features. In practice, this gives the firmware more headroom for advanced input processing, filtering, communication timing, and optional onboard features.
 
-You can find all documentation here: https://github.com/PhobGCC/PhobGCC-doc
+If you are interested in building one, join the project Discord to ask questions and get the most up-to-date information: https://discord.gg/eNJ7xWMvxf
 
-Board version 1.2:
+You can find the original PhobGCC documentation here: https://github.com/PhobGCC/PhobGCC-doc
 
-![Board version 1.2](https://github.com/PhobGCC/PhobGCC-doc/raw/main/For_Makers/BuildPics_1.2.2/CVAC1118_1lwoupq-output.jpg?raw=true)
-
-Hall effect sensors:
-
-![Prototypes](https://www.dropbox.com/s/fyltdef79c2z78y/Hall%20Sensors.png?raw=1)
-
-Initial prototypes:
-
-![Prototypes](https://www.dropbox.com/s/q8ypkzmfeijdc5w/boards.jpg?raw=1)
